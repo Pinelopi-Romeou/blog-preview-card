@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-radius: 15px;
+    box-shadow: 8px 8px 0 0 black;
+    margin-bottom: 35px;
+    max-width: 370px;
+    height: auto;
+}
+
+.illustration {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+button {
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 5px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 800;
+    margin: 11px 0;
+}
+
+p {
+    font-weight: 500;
+    margin: 0;
+}
+
+.date {
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.m5 {
+    margin: 15px 0;
+}
+
+.dark-gray {
+    color: hsl(0, 0%, 7%);
+}
+
+.paragraph {
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.link:visited,
+.link:link,
+.link:hover {
+    color: hsl(0, 0%, 7%);
+    text-decoration: none;
+}
+
+.link:active {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    text-decoration: none;
+}
+
+.user {
+    font-weight: 800;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.photo {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width: 480px) {
+    .container {
+        max-width: 355px;
+    }
+
+    .illustration {
+        object-fit: cover;
+    }
+}
+
