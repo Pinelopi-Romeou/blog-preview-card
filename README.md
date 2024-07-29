@@ -22,10 +22,10 @@ The link in active state:
 - CSS custom properties
 - CSS Flexbox
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/blog-preview-card-0eCrmPf027
 
 ## Author
 
 - GitHub - [Pinelopi-Romeou](https://github.com/Pinelopi-Romeou)
 - Frontend Mentor - [@Pinelopi-Romeou](https://www.frontendmentor.io/profile/Pinelopi-Romeou)
-- Netlify URL: - [PinelopiRomeou](https://app.netlify.com/teams/pinelopi-romeou)
+- Netlify URL: - [PinelopiRomeou](https://pinelopi-romeou.netlify.app/)
